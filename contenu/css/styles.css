@@ -1,0 +1,702 @@
+@font-face {
+    font-family: 'titilium-web-regular';
+    src: url("../polices/TitilliumWeb-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Titillium Web";
+    src: url("../polices/TitilliumWeb-Bold.ttf");
+    src: url("../polices/TitilliumWeb-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../polices/OpenSans-SemiBold.ttf');
+    src: url('../polices/OpenSans-Bold.ttf');
+    src: url('../polices/OpenSans-Regular.ttf');
+
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+main {
+    margin: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 70px;
+    width: 100vw;
+    background: #FFF;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 0 1px 5px rgba(100, 100, 100, .3);
+}
+
+body > header > div.container.header > div > div {
+    display: flex;
+    vertical-align: center;
+    height: 70px;
+}
+
+.navigation {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    color: #1E4340;
+    text-decoration: none;
+    padding: 11px;
+}
+
+.navigation:hover {
+    color: #1E4340;
+    text-decoration: none;
+}
+
+body > header > div.container.header > div > nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image_bg {
+    background-image: url(images/image_fond.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 650px;
+}
+
+.desc {
+    position: relative;
+    top: 100px;
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 4.6rem;
+    font-weight: bold;
+    margin: auto 0;
+    color: #428421;
+    padding: 0;
+}
+
+h1 > span {
+    color: #f08d54;
+}
+
+.logo {
+    width: 39px;
+    height: 53px;
+    margin: auto 0;
+}
+
+h2 {
+    margin: auto 0;
+}
+
+
+.intertitre {
+    font-family: "titilium-web-regular", sans-serif;
+    font-size: 4.8rem;
+    font-weight: normal;
+    color: #1E4340;
+    margin: 25px 0;
+    padding: 15px 0;
+}
+
+body > main > div#fonctionalites > h3 {
+    margin-left: 65px;
+}
+
+h4 {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 9px;
+    color: #1E4340;
+}
+
+p {
+    font-family: "titilium-web-regular", sans-serif;
+    font-size: 1.8rem;
+    font-weight: normal;
+    border-left: solid #428421 3px;
+    padding-left: 5px;
+    color: #1E4340;
+}
+
+.container_desc {
+    position: absolute;
+    top: 80px;
+    left: 60px;
+}
+
+.Titre_description {
+    font-family: "titilium-web-regular", sans-serif;
+    font-size: 4.4rem;
+    color: #1E4340;
+    font-weight: normal;
+}
+
+.Titre_description > span {
+    text-align: left;
+    display: inherit;
+}
+
+.description {
+    color: #1E4340;
+    font-family: "titilium-web-regular", sans-serif;
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+    border-left: solid #428421 3px;
+    width: 40vw;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+.essaie_gratuit {
+    width: 150px;
+    height: 40px;
+    border-radius: 17px;
+    background: #428421;
+    color: #1E4340;
+    border: #428421 solid;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 14px 14px 14px 20px;
+}
+
+.connexion {
+    height: 40px;
+    width: 150px;
+    border-radius: 17px;
+    background: none;
+    border: #428421 solid;
+    color: #1E4340;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 14px 10px 10px 20px;
+}
+
+.CTA {
+    width: 296px;
+    height: 67px;
+    background: rgba(236, 236, 236, 0.2);
+    border: #1E4340 solid;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 2.6rem;
+    border-radius: 15px;
+    color: #1E4340;
+    cursor: pointer;
+    margin-top: 75px;
+}
+
+.CTA > img {
+    width: 42px;
+    height: auto;
+    vertical-align: middle;
+    padding-left: 10px;
+    margin-top: -5px;
+}
+
+.icones {
+    width: 128px;
+    height: 128px;
+    margin: auto;
+    display: block;
+}
+
+body > main > div > div.container1 > div > p {
+    width: 15vw;
+    text-align: left;
+}
+
+.fiche {
+    width: 90%;
+    height: auto;
+}
+
+.image-content {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text-content {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.recherche_desc {
+    width: 25vw;
+    margin: 0 0 30px 30px;
+}
+
+
+.recherche_container {
+    margin-bottom: 55px;
+    height: 60vh;
+}
+
+.a_propos {
+    text-align: left;
+}
+
+.portrait {
+    width: 190px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+footer p, .gal_desc p {
+    border: none;
+}
+
+body > main > div:nth-child(4) > div > div:nth-child(2) > p {
+    border: none;
+    font-weight: bold;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+body > main > div:nth-child(4) > div > div:nth-child(1) > p {
+    border: none;
+    font-weight: bold;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+body > main > div:nth-child(4) > div > div:nth-child(3) > p {
+    border: none;
+    font-weight: bold;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+body > main > div > div > p > span {
+    font-weight: normal;
+    display: inline-block;
+}
+
+body > main > div:nth-child(4) > div > div:nth-child(2) > p > span:nth-child(1) {
+    font-weight: bold;
+    display: inline-block;
+}
+
+body > main > div:nth-child(4) > div > div:nth-child(2) > p > span:nth-child(2) {
+    font-weight: bold;
+    display: inline-block;
+}
+
+body > main > div:nth-child(4) > div > div:nth-child(2) > p > span:nth-child(3) {
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Footer */
+
+.bgf {
+    background: #707070;
+}
+
+footer {
+    background: #707070;
+    color: #ECECEC;
+    padding-top: 5px;
+    margin-top: 35px;
+}
+
+footer > p {
+    color: #ECECEC;
+}
+
+.social {
+    width: 35px;
+    margin: 10px;
+    height: auto;
+}
+
+.mentions {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.footer {
+    display: inline-block;
+    margin: 0 65px;
+}
+
+h5 {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0;
+}
+
+body > div > footer > div.row > div.col-md-7.col-lg-9 > h5:nth-child(5) {
+    margin-bottom: 10px;
+}
+
+.reseaux {
+    float: left;
+    width: 40vw;
+}
+
+body > div > footer > div.row > div:nth-child(2) > ul a {
+    color: #ECECEC;
+    font-family: titilium-web-regular, sans-serif;
+    font-size: 1.7rem;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+body > div > footer > div.row > div:nth-child(2) > ul li {
+    list-style: none;
+    margin: 0;
+    padding-top: 10px;
+}
+
+body > div > footer > div.row > div:nth-child(2) > ul {
+    margin: 0;
+    padding: 0;
+}
+
+.mentions_legales {
+    text-align: center;
+}
+
+.mentions_legales > a {
+    font-family: "titilium-web-regular", sans-serif;
+    font-size: 1.6rem;
+    font-weight: normal;
+    text-decoration: underline;
+    color: #ECECEC;
+    cursor: pointer;
+}
+
+
+input {
+    border-radius: 10px;
+    border: solid 1px #ececec;
+    background: none;
+    width: 400px;
+    height: 32px;
+}
+
+/* Fonctionnalités */
+
+.bg {
+    background: #ECECEC;
+}
+
+#fonctionalites > div > div {
+    margin: 0 auto;
+}
+
+body > main > div:nth-child(4) > div {
+    padding: 30px 0;
+}
+
+body > main > div > div > div {
+    margin: 0 auto;
+}
+
+/* Modifications responsive */
+
+@media (max-width: 992px) {
+    body > main > div:nth-child(4) > div > div:nth-child(1) > p {
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    body > main > div:nth-child(4) > div > div:nth-child(2) > p {
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    body > main > div:nth-child(4) > div > div:nth-child(3) > p {
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #fonctionalites > div:nth-child(4) > div:nth-child(3) {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-device-width: 767px) {
+    #fonctionalites > div > div > p {
+        width: 35vw;
+        margin: auto;
+    }
+
+    #email {
+        margin-bottom: 10px;
+        width: 70vw;
+    }
+
+    body > header > div.container.header > div > nav {
+        visibility: hidden;
+    }
+
+    body > main > div.image_bg > div > button {
+        margin-top: 20px;
+    }
+
+    .image_bg {
+        background-position-x: center;
+        height: 670px;
+    }
+
+    .Titre_description {
+        font-size: 3.5rem;
+    }
+
+    .description {
+        font-size: 2rem;
+        line-height: 2.4rem;
+        width: 60vw;
+    }
+
+    body > header > div.container.header > div > div {
+        justify-content: center;
+    }
+
+    /* Creation du menu Hamburger */
+    .nav-toggle {
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        width: 30px;
+        height: 30px;
+        z-index: 10;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        cursor: pointer;
+    }
+
+    .nav-toggle-bar::before,
+    .nav-toggle-bar::after,
+    .nav-toggle-bar {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 125%;
+        height: 2px;
+        background: #428421;
+        z-index: 10;
+        transition: all 0.5s;
+    }
+
+    .nav-toggle-bar:before {
+        top: -11px;
+        width: 100%;
+    }
+
+    .nav-toggle-bar::after {
+        top: 11px;
+        width: 100%;
+    }
+
+    /* Transformation du menu en croix */
+    .nav-toggle.active > .nav-toggle-bar::before {
+        background: #428421;
+        transform: rotate(45deg);
+        transition: all 0.5s;
+        top: 0;
+    }
+
+    .nav-toggle.active > .nav-toggle-bar::after {
+        background: #428421;
+        transform: rotate(135deg);
+        transition: all 0.5s;
+        top: 0;
+    }
+
+    /*Réglages du menu de navigation (ferme)*/
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #ececec;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        visibility: hidden;
+        pointer-events: none;
+        transform: translateX(-100vw);
+        transition: all 5s ease-out;
+        transition-duration: 0.5s;
+        overflow: hidden;
+    }
+
+    .menu ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 2.6rem;
+        line-height: 1.3;
+    }
+
+    .menu li {
+        padding: 20px;
+        opacity: 1;
+    }
+
+    .menu li:nth-child(6) {
+        border-bottom: none;
+    }
+
+    /*Réglages du menu de navigation (ouvert)*/
+    .noscroll {
+        overflow: hidden;
+    }
+
+    .menu.open {
+        visibility: visible;
+        transform: translateX(0vw);
+        transition: all 5s ease-out;
+        transition-duration: 0.5s;
+        pointer-events: all;
+
+    }
+
+    .menu.open li:nth-child(n+1) {
+        transition-delay: 0.1s;
+    }
+
+    .menu.open li:nth-child(n+2) {
+        transition-delay: 0.2s;
+    }
+
+    .menu.open li:nth-child(n+3) {
+        transition-delay: 0.3s;
+    }
+
+    .menu.open li:nth-child(n+4) {
+        transition-delay: 0.4s;
+    }
+
+    .menu.open li:nth-child(n+5) {
+        transition-delay: 0.5s;
+    }
+
+    .menu.open li:nth-child(n+6) {
+        transition-delay: 0.6s;
+    }
+
+    .menu li {
+        transform: translateX(-60vw);
+    }
+
+    .menu.open li {
+        transform: translateX(0);
+        transition: all 0.5s ease-in-out;
+        opacity: 1;
+    }
+
+    .menu.open > ul {
+        transform: translateX(0px);
+        transition: all 0.5s ease-in-out;
+        text-align: center;
+        position: relative;
+    }
+
+    body > header > div.nav-toggle > div > div > ul > li:nth-child(5) {
+        width: 100vw;
+        border-bottom: solid 3px #1E4340;
+    }
+
+    body > header > div.nav-toggle > div > div > ul > li a {
+        font-family: 'titilium-web-regular', sans-serif;
+        font-size: 3rem;
+        color: #1E4340;
+        text-decoration: none;
+    }
+
+    body > header > div.nav-toggle > div > div > ul > li a:hover {
+        color: #1E4340;
+        text-decoration: none;
+    }
+
+    body > header > div.nav-toggle > div > div > ul > li > button, body > header > div.nav-toggle > div > div > ul > li > button a {
+        height: 50px;
+        width: 200px;
+        color: #ffffff;
+        background: #428421;
+        border: none;
+        border-radius: 15px;
+    }
+
+    #fonctionalites > div > div > p {
+        width: 80vw;
+        margin-bottom: 15px;
+    }
+
+    body > main > div:nth-child(2) > div > div:nth-child(2) > p {
+        width: 70vw;
+        margin: auto;
+    }
+
+    .fiche {
+        margin-bottom: 15px;
+    }
+
+    .intertitre {
+        font-size: 4rem;
+        margin: 15px 0;
+        padding: 5px 0;
+    }
+
+    .fiche_container {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .essaie_gratuit, .connexion {
+        height: 40px;
+        width: 140px;
+        margin: auto 5px;
+        font-size: 1.6rem;
+
+    }
+
+    .navigation {
+        font-size: 1.6rem;
+    }
+
+    .recherche_desc {
+        width: 45vw;
+        margin: 0 0 30px 0;
+    }
+}
+
+@media (max-device-width: 1000px) {
+    .header {
+        max-width: 100vw;
+    }
+
+}
+
+@media (min-device-width: 768px) {
+    .nav-toggle, .nav-toggle-bar, .menu {
+        position: absolute;
+        left: -9999px;
+    }
+}
