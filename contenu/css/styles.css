@@ -191,11 +191,12 @@ p {
     width: 296px;
     height: 67px;
     background: rgba(236, 236, 236, 0.2);
-    border: #1E4340 solid;
+    border: none;
     font-family: "Titillium Web", sans-serif;
     font-size: 2.6rem;
     border-radius: 15px;
-    color: #1E4340;
+    color: white;
+    background-color: #4daf74;
     cursor: pointer;
     margin-top: 75px;
 }
